@@ -122,6 +122,9 @@ class du "i" de ce "p": .fas */
     box-shadow: 1px 1px black;
     font-size: 1em;
     margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*HOMEPAGE chaque élément taggé "button" contient un link "a"*/
