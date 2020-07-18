@@ -195,6 +195,10 @@ a {
     color: orange;
 }
 
+.fa-home {
+    transform: scale(3);
+}
+
 .far {
     top: -1em;
     color: white;
@@ -205,4 +209,8 @@ a {
     color:black;
     top: -1em;
     left: 0;
+}
+
+#rafa {
+    margin-top: 3em;
 }
