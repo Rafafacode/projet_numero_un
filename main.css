@@ -1,7 +1,4 @@
 
-/* font qui sera éventuellement utilisée */
-
-
 @font-face {
     font-family: "karma_arcade";
     src:url("fonts/karma/karma-webfont.eot");
@@ -145,9 +142,9 @@ a {
 footer {
     font-size: 0.5em;
     width: 200px;
-    position: absolute;
-    right: -100px;
-    bottom: 3px;
+    margin: auto;
+    font-family: "karma_arcade", Arial, Helvetica, sans-serif;
+    
     color: white;
     }
 
@@ -232,12 +229,6 @@ footer {
 /* icones */
 
 
-i {
-    
-    animation-name: move_up_and_down;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-}
 
 .fas, .far {    /* fas = arrow et far = finger pointer */  
 
@@ -254,6 +245,9 @@ i {
 .far {
     top: -1em;
     color: white;
+    animation-name: move_up_and_down;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 .fa-infinity, .fa-clock {  /*dans le footer */
