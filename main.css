@@ -192,11 +192,11 @@ class du "i" de ce "p": .fas */
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 1px 1px black;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 1em;
     text-align: center;
-    padding:30px;
+    padding:50px;
 }
 
 /*HOMEPAGE chaque élément taggé "button" contient un link "a"*/
