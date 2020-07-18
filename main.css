@@ -56,6 +56,12 @@ header {
     align-items: center;   
 }
 
+/*pour page moi*/
+
+#header_moi {
+    height: 30vh;
+}
+
 /*HOMEPAGE le header contient 1 "p" et un a#auteur et un i.far voir lois icones et links plus bas*/
 
 p {
@@ -116,6 +122,16 @@ class du "i" de ce "p": .fas */
 
 }
 
+#selection_moi {
+
+    height: 50vh;
+
+}
+
+
+
+
+
 /*HOMEPAGE la selection contient 3 éléments div.choix*/
 
 
@@ -137,6 +153,12 @@ class du "i" de ce "p": .fas */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*pour page moi*/
+
+#choix_moi {
+    height: auto;
 }
 
 /*HOMEPAGE chaque élément taggé "button" contient un link "a"*/
@@ -164,6 +186,11 @@ footer {
     text-align: center;
     }
 
+    /*pour la page moi*/
+
+    #footer_moi {
+        height: 20vh;
+    }
 
 
 
