@@ -33,11 +33,16 @@ html, body {
 
 1 header 
     p #title
+    a div.choix #auteur
     p i.fas
 1 section #selection
-    div.choix a 
-    div.choix a
-    div.choix a
+    a div.choix
+    i.far
+    a div.choix 
+    i.far
+    a div.choix 
+    i.far
+    
 1 footer
 
 
@@ -51,10 +56,14 @@ header {
     align-items: center;   
 }
 
-/*HOMEPAGE le header contient 2 "p"*/
+/*HOMEPAGE le header contient 2 "p" et un a#auteur*/
 
 p {
     margin-top: 1em;
+}
+
+#auteur {
+    font-size: 0.5em;
 }
 
 /*HOMEPAGE id du premier "p"  #title*/
@@ -118,6 +127,7 @@ class du "i" de ce "p": .fas */
     border-radius: 10px;
     box-shadow: 1px 1px black;
     font-size: 1em;
+    font-weight: bold;
     margin-bottom: 1em;
     display: flex;
     justify-content: center;
