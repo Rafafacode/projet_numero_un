@@ -146,6 +146,7 @@ footer {
     font-family: "karma_arcade", Arial, Helvetica, sans-serif;
     
     color: white;
+    text-align: center;
     }
 
 
@@ -243,7 +244,7 @@ footer {
 }
 
 .far {
-    top: -1em;
+    top: -2em;
     color: white;
     animation-name: move_up_and_down;
     animation-duration: 1s;
