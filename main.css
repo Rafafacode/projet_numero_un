@@ -1,11 +1,11 @@
 
 @font-face {
     font-family: "karma_arcade";
-    src:url("http://farawey.eu/CSS/fonts/karma/karma-webfont.eot");
-    src:url("http://farawey.eu/CSS/fonts/karma/karma-webfont.svg");
-    src:url("http://farawey.eu/CSS/fonts/karma/karma-webfont.ttf");
-    src:url("http://farawey.eu/CSS/fonts/karma/karma-webfont.woff");
-    src:url("http://farawey.eu/CSS/fonts/karma/karma-webfont.woff2");
+    src:url("fonts/karma/karma-webfont.eot");
+    src:url("fonts/karma/karma-webfont.svg");
+    src:url("fonts/karma/karma-webfont.ttf");
+    src:url("fonts/karma/karma-webfont.woff");
+    src:url("fonts/karma/karma-webfont.woff2");
 }
 
 * {
@@ -39,16 +39,17 @@ button {
 
 #choose {
     margin: auto;
-    padding-top: 50px;
-    
+    margin-top: 2em;
+    padding-top: 50px; 
     font-size: 2em;
     width: 75vw;
     border-radius: 10px;
-    background-color: white;
+    background-color: #a787f0; /* couleur openclassroom */
     border: 1px solid black;
     text-align: center;
     padding-bottom: 1em;
-    color: black;
+    color: white;
+    box-shadow: 0px 0px 2px lightgray;
 }
 
 a {
