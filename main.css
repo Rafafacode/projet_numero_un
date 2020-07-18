@@ -141,8 +141,8 @@ a {
 
 footer {
     font-size: 0.5em;
-    width: 200px;
-    margin: auto;
+    width: 300px;
+    margin: 3em auto;
     font-family: "karma_arcade", Arial, Helvetica, sans-serif;
     
     color: white;
@@ -167,9 +167,9 @@ footer {
 
 
 @keyframes move_up_and_down {
-    0% {transform: rotate(10deg);}
-    50% { transform: rotate(-10deg);}
-    100% {transform: rotate(10deg);}
+    0% {transform: translateY(0px);}
+    50% { transform: translateY(-10px);}
+    100% {transform: translateY(0px);}
 }
 
 
