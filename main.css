@@ -167,13 +167,6 @@ footer {
 
 
 
-@keyframes move_up_and_down {
-    0% {transform: translateY(0px);}
-    50% { transform: translateY(-10px);}
-    100% {transform: translateY(0px);}
-}
-
-
 
 
 .buttono {
@@ -244,7 +237,7 @@ footer {
 }
 
 .far {
-    transform: translateY(-10px);
+    
     color: white;
     animation-name: move_up_and_down;
     animation-duration: 1s;
@@ -263,4 +256,13 @@ footer {
 
 .pink {
     background: lightcoral;
+}
+
+
+/*règles animations css*/
+
+@keyframes move_up_and_down {
+    0% {transform: translateY(0px);}
+    50% { transform: translateY(-20px);}
+    100% {transform: translateY(0px);}
 }
