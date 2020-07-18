@@ -100,9 +100,9 @@ p {
 class du "i" de ce "p": .fas */
 
 
-/* HOMEPAGE il y a 1 section : section #selection  */
+/* HOMEPAGE il y a 1 section : section .selection  */
 
-#selection {
+.selection {
     width: 50vw;
     min-width: 300px;
     max-width: 400px;    
