@@ -137,13 +137,8 @@ class du "i" de ce "p": .fas */
     min-width: 300px;
     max-width: 400px;    
     margin: auto;
-    display: flex;
-    flex: nowrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 10px;
-
+    padding: 30px;
+    text-align: center;
 }
 
 #selection_moi {
