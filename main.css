@@ -1,4 +1,7 @@
 
+/* font qui sera éventuellement utilisée */
+
+
 @font-face {
     font-family: "karma_arcade";
     src:url("fonts/karma/karma-webfont.eot");
@@ -8,6 +11,8 @@
     src:url("fonts/karma/karma-webfont.woff2");
 }
 
+/*lois pour toute la page*/
+
 * {
     margin: 0;
     padding: 0;
@@ -15,24 +20,58 @@
     word-break:keep-all;
 }
 
+
+
+/* déclarations dans l'ordre base HOMEPAGE */
+
 html, body {
-    font-family: "karma_arcade", Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-image: url("images/bg_tiles_gray.png");
     background-size: cover;
     background-repeat: no-repeat;
-    font-size: 100%;
-    
-    
+    font-size: 100%; 
 }
+
+/*HOMEPAGE Structure :
+
+1 header 
+    p #title
+    p i.fas
+1 section #selection
+    button a 
+    button a
+    button a
+1 footer
+
+
+*/
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+
+/*HOMEPAGE le header contient 2 "p"*/
+
+p {
+    margin-top: 1em;
+}
+
+/*HOMEPAGE id du premier "p"  #title*/
 
 
 #title {
     min-width: 300px;
     max-width: 400px;
+    min-height: 300px;
+    max-height: 400px;
     margin: 1em auto;
     width: 30%;    
-    background: lightgray;
-    color: black;
+    background-color: #a787f0;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,18 +85,31 @@ html, body {
     font-size: 1.5em;    
 }
 
+/* HOMEPAGE le deuxième "p" contient une icone : voir plus bas les lois pour les icones 
+class du "i" de ce "p": .fas */
 
-header {
+
+/* HOMEPAGE il y a 1 section : section #selection  */
+
+#selection {
+    width: 50vw;
+    min-width: 300px;
+    max-width: 400px;    
+    margin: auto;
     display: flex;
+    flex: nowrap;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    
-    
+    padding: 10px;
+
 }
 
+/*HOMEPAGE la selection contient 3 éléments taggés "button"*/
+
+
 button {
-    font-family: "karma_arcade", Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #345f9e;
     min-width: 300px;
     max-width: 400px;
@@ -70,49 +122,44 @@ button {
     margin-bottom: 1em;
 }
 
-#choose {
-    padding-top: 50px; 
-    font-size: 2em;
-    min-width: 300px;
-    max-width: 400px;
-    margin: 1em auto;
-    width: 30%;
-    width: 75vw;
-    border-radius: 10px;
-    background-color: #a787f0; /* couleur openclassroom */
-    border: 1px solid black;
-    text-align: center;
-    padding-bottom: 1em;
-    color: white;
-    box-shadow: 0px 0px 2px lightgray;
-}
+/*HOMEPAGE chaque élément taggé "button" contient un link "a"*/
+
 
 a {
     text-decoration: none;
     color: white;
 }
 
-#selection {
-    width: 50vw;  
+
+/* HOMEPAGE élément finale taggé "footer" */
+
+
+footer {
+    font-size: 0.5em;
+    width: 200px;
+    position: absolute;
+    right: -100px;
+    bottom: 3px;
+    color: white;
+    }
+
+
+
+
+
+
+#frequence {
+    width: 50vw;
+    min-width: 300px;
+    max-width: 400px;    
     margin: auto;
-    display: flex;
-    flex: nowrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 10px;
-
+    min-width: 300px;
+    max-width: 400px;    
+    
+     
 }
 
 
-
-i {
-    color: orange;
-    font-size: 4em;
-    animation-name: move_up_and_down;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-}
 
 @keyframes move_up_and_down {
     0% {transform: rotate(10deg);}
@@ -122,25 +169,6 @@ i {
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    word-break: keep-all;
-}
-
-html, body {
-    font-family:  Arial, Helvetica, sans-serif;
-    background-image: url("images/bg_tiles_gray.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-size: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    
-}
 
 .buttono {
 
@@ -175,6 +203,8 @@ a {
     color: white;
 }
 
+
+
 #selection {
     
     
@@ -189,13 +219,6 @@ a {
 
 }
 
-#frequence {
-    min-width: 300px;
-    max-width: 400px;    
-    width: 30%;
-    
-    
-}
 
 #curation_1, #curation_2 {
     display: flex;
@@ -205,16 +228,6 @@ a {
 
 
 
-#id {
-    font-size: 0.5em;
-    font-style: italic;
-    text-decoration: underline;
-    margin-bottom: 1em;
-}
-
-p {
-    margin-top: 1em;
-}
 
 #cycle {    
     background: lightgreen;
@@ -227,29 +240,21 @@ p {
     
 }
 
-.pink {
-    background: lightcoral;
-}
 
-#frequence {
-    min-width: 300px;
-    max-width: 400px;
-    margin: auto;
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
-    
-    
-}
 
-/* alignement des icones */
+/* icones */
+
+
+i {
+    color: orange;
+    animation-name: move_up_and_down;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
 
 .fas, .far {    /* fas = arrow et far = finger pointer */  
 
-    transform: scale(2);
-    
-    
-    
+    transform: scale(2);    
     
 }
 
@@ -272,11 +277,16 @@ p {
 }
 
 
-footer {
-font-size: 0.5em;
-width: 200px;
-position: absolute;
-right: -100px;
-bottom: 3px;
-color: white;
+#id {
+    font-size: 0.5em;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 1em;
+}
+
+
+/* déclaration pour les couleurs */
+
+.pink {
+    background: lightcoral;
 }
