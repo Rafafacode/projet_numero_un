@@ -186,17 +186,17 @@ class du "i" de ce "p": .fas */
     min-width: 300px;
     max-width: 500px;
     min-height: 30vh;
-    max-height: 50vh;
+    max-height: 70vh;
     margin: 1em auto;
     
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 1px 1px black;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 3em;
     text-align: center;
-    padding:90px;
+    padding:40px;
 }
 
 /*HOMEPAGE chaque élément taggé "button" contient un link "a"*/
