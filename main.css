@@ -124,7 +124,10 @@ class du "i" de ce "p": .fas */
 
 #selection_moi {
 
-    height: 50vh;
+    width: 50vw;
+    height: 50vh;      
+    margin: auto;
+    
 
 }
 
