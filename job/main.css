@@ -1,6 +1,10 @@
-body {
+html, body {
     font-family: Arial, Geneva, Verdana, sans-serif;
     padding: 10px;
+    background-image: url("../images/bg_tiles_gray.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
     
 }
 
