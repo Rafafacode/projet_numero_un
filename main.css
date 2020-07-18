@@ -35,7 +35,6 @@ html, body {
     p #title
     a div.choix #auteur
     i.far
-    p i.fas
 1 section #selection
     a div.choix
     i.far
@@ -57,7 +56,7 @@ header {
     align-items: center;   
 }
 
-/*HOMEPAGE le header contient 2 "p" et un a#auteur*/
+/*HOMEPAGE le header contient 1 "p" et un a#auteur et un i.far voir lois icones et links plus bas*/
 
 p {
     margin-top: 1em;
