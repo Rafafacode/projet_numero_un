@@ -196,7 +196,8 @@ a {
 }
 
 .fa-home {
-    transform: scale(3);
+    transform: scale(3) translateX(-3em);
+    
 }
 
 .far {
