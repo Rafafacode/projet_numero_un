@@ -158,7 +158,9 @@ class du "i" de ce "p": .fas */
 /*pour page moi*/
 
 #choix_moi {
-    height: auto;
+    width: 50vw;
+    
+    max-height: 50vh;
 }
 
 /*HOMEPAGE chaque élément taggé "button" contient un link "a"*/
@@ -189,7 +191,7 @@ footer {
     /*pour la page moi*/
 
     #footer_moi {
-        height: 20vh;
+        height:20vh;
     }
 
 
