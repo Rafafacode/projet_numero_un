@@ -66,8 +66,8 @@ p {
 #title {
     min-width: 300px;
     max-width: 400px;
-    min-height: 300px;
-    max-height: 400px;
+    min-height: 150px;
+    max-height: 200px;
     margin: 1em auto;
     width: 30%;    
     background-color: #a787f0;
@@ -113,6 +113,8 @@ button {
     background-color: #345f9e;
     min-width: 300px;
     max-width: 400px;
+    min-height: 75px;
+    max-height: 100px;
     margin: 1em auto;
     width: 30%;
     border: 1px solid black;
