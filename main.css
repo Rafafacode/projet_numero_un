@@ -62,6 +62,14 @@ header {
     height: 30vh;
 }
 
+/*title pour moi*/
+
+#title_moi {
+
+    background-color: #a787f0;
+    color: white;
+}
+
 /*HOMEPAGE le header contient 1 "p" et un a#auteur et un i.far voir lois icones et links plus bas*/
 
 p {
@@ -166,7 +174,7 @@ class du "i" de ce "p": .fas */
     background-color: #345f9e;
     min-width: 300px;
     max-width: 500px;
-    min-height: 75px;
+    min-height: 30vh;
     max-height: 50vh;
     margin: 1em auto;
     
