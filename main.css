@@ -34,6 +34,7 @@ html, body {
 1 header 
     p #title
     a div.choix #auteur
+    i.far
     p i.fas
 1 section #selection
     a div.choix
@@ -64,6 +65,11 @@ p {
 
 #auteur {
     font-size: 0.5em;
+    min-width: 150px;
+    max-width: 200px;
+    height: 50px;
+    margin: 1em auto;
+    width: 30%;
 }
 
 /*HOMEPAGE id du premier "p"  #title*/
