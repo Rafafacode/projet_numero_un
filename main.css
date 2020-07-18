@@ -129,14 +129,12 @@ class du "i" de ce "p": .fas */
 
 /*HOMEPAGE chaque élément taggé "button" contient un link "a"*/
 
-button {
-    color: black;
-}
+
 
 
 a {
     text-decoration: none;
-    color: white;
+    
 }
 
 
